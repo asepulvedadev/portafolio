@@ -62,3 +62,4 @@ function Collapsable({ children, id, breakpointId, initialVisibleItems = 0, item
 }
 
 export default Collapsable
+

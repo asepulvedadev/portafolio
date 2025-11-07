@@ -74,3 +74,4 @@ function ArticleNotFoundItem({ itemWrapper }) {
 }
 
 export default ArticleNotFound
+

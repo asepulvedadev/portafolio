@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider is responsible for managing feedbacks, modals and UI interactions.
  */
@@ -211,3 +211,4 @@ const FeedbacksContext = createContext(null)
 export const useFeedbacks = () => useContext(FeedbacksContext)
 
 export default FeedbacksProvider
+

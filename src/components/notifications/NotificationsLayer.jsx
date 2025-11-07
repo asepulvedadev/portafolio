@@ -19,3 +19,4 @@ function NotificationsLayer({ target, onNotificationDismissed = null }) {
 }
 
 export default NotificationsLayer
+

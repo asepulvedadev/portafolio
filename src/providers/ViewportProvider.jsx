@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider tracks the viewport size and scroll position, and provides utility functions to manage breakpoints and layout constraints.
  */
@@ -145,3 +145,4 @@ const ViewportContext = createContext(null)
 export const useViewport = () => useContext(ViewportContext)
 
 export default ViewportProvider
+

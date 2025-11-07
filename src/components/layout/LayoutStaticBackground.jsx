@@ -15,3 +15,4 @@ function LayoutStaticBackground() {
 }
 
 export default LayoutStaticBackground
+

@@ -149,3 +149,4 @@ class CircleData {
 }
 
 export default LayoutAnimatedBackground
+

@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider handles the theme management for the application, allowing users to switch between different themes.
  */
@@ -109,3 +109,4 @@ const ThemeContext = createContext(null)
 export const useTheme = () => useContext(ThemeContext)
 
 export default ThemeProvider
+

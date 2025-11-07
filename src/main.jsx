@@ -161,3 +161,4 @@ const AppCapabilitiesWrapper = ({ children }) => {
         </LanguageProvider>
     )
 }
+

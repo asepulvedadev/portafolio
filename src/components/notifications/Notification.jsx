@@ -69,3 +69,4 @@ Notification.Types = {
 }
 
 export default Notification
+

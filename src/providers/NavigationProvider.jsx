@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider manages the navigation between sections and categories in the application.
  */
@@ -325,3 +325,4 @@ const NavigationContext = createContext(null)
 export const useNavigation = () => useContext(NavigationContext)
 
 export default NavigationProvider
+

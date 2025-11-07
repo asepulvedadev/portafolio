@@ -171,3 +171,4 @@ TextTyper.Status = {
 }
 
 export default TextTyper
+

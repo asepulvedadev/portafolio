@@ -94,3 +94,4 @@ function NavProfileCard({ profile, expanded }) {
 }
 
 export default NavProfileCard
+

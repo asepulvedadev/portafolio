@@ -17,3 +17,4 @@ function SectionContent({ section }) {
 }
 
 export default SectionContent
+

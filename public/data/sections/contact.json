@@ -97,8 +97,8 @@
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "asepulvedadev@gmail.com",
+                    "link": {"href": "mailto:asepulvedadev@gmail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"},
                         "ko": {"title": "이메일"}
@@ -119,7 +119,7 @@
                     "id": 4,
                     "faIcon": "fa-brands fa-facebook",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
+                    "label": "Alvaro Sepulveda",
                     "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Facebook"},

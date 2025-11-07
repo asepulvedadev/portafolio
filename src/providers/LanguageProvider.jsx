@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider is responsible for managing the application's language settings and translations.
  */
@@ -179,3 +179,4 @@ const LanguageContext = createContext(null)
 export const useLanguage = () => useContext(LanguageContext)
 
 export default LanguageProvider
+

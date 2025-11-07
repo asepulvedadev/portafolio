@@ -34,3 +34,4 @@ function NavTabControllerLink({ link, active, data, onClick, onClickTimeout }) {
 }
 
 export default NavTabController
+

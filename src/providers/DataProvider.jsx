@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider is responsible for loading and providing the data for the application.
  */
@@ -180,3 +180,4 @@ const DataContext = createContext(null)
 export const useData = () => useContext(DataContext)
 
 export default DataProvider
+

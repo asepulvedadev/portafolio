@@ -46,3 +46,4 @@ function LayoutImageCache({ profile, settings, sections }) {
 }
 
 export default LayoutImageCache
+

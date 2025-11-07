@@ -36,3 +36,4 @@ function Tooltip({ id = null, className = "", label = "" }) {
 }
 
 export default Tooltip
+

@@ -41,3 +41,4 @@ function NumberAnimation({ targetValue, id, initialValue = 0, updateDelay = 10, 
 }
 
 export default NumberAnimation
+

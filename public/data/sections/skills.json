@@ -191,72 +191,72 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E"},
                     "date": {"year": 2019, "month": 3},
                     "percentage": 95,
                     "locales": {
                         "en": {
-                            "title": "Node.js",
-                            "text": "Certified developer by Node.js Foundation.",
+                            "title": "JavaScript/TypeScript",
+                            "text": "Specialized in modern JavaScript and TypeScript development.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Desarrollador certificado por la Fundación Node.js."
+                            "text": "Especializado en desarrollo moderno con JavaScript y TypeScript."
                         },
                         "fr": {
-                            "text": "Développeur certifié par la Node.js Foundation."
+                            "text": "Spécialisé dans le développement moderne avec JavaScript et TypeScript."
                         },
                         "ko": {
-                            "text": "Node.js 재단 인증 개발자."
+                            "text": "현대적인 JavaScript 및 TypeScript 개발 전문가."
                         }
                     }
                 },
                 {
                     "id": 2,
                     "img": "",
-                    "faIcon": "fa-brands fa-java",
-                    "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": "#3178C6"},
                     "date": {"year": 2019, "month": 10},
                     "percentage": 95,
                     "locales": {
                         "en": {
-                            "title": "Java",
-                            "text": "Oracle certified Java developer with a strong understanding of its ecosystem.",
+                            "title": "TypeScript",
+                            "text": "Advanced TypeScript development with strong typing and modern JavaScript features.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Desarrollador de Java certificado por Oracle con un sólido entendimiento de su ecosistema."
+                            "text": "Desarrollo avanzado con TypeScript incluyendo tipado fuerte y características modernas de JavaScript."
                         },
                         "fr": {
-                            "text": "Développeur Java certifié Oracle avec une bonne compréhension de son écosystème."
+                            "text": "Développement avancé avec TypeScript incluant le typage fort et les fonctionnalités modernes de JavaScript."
                         },
                         "ko": {
-                            "text": "Oracle 인증 Java 개발자로 Java 생태계에 대한 강력한 이해."
+                            "text": "강력한 타이핑과 현대적인 JavaScript 기능을 포함한 고급 TypeScript 개발."
                         }
                     }
                 },
                 {
                     "id": 3,
                     "img": "",
-                    "faIcon": "fa-solid fa-gem",
-                    "faIconColors": {"bg": "", "fill": "#CC0000"},
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB"},
                     "date": {"year": 2020, "month": 8},
                     "percentage": 80,
                     "locales": {
                         "en": {
-                            "title": "Ruby on Rails",
-                            "text": "Complete understanding of Ruby on Rails for building web applications.",
+                            "title": "React",
+                            "text": "Advanced React development with hooks, context, and modern patterns.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Comprensión completa de Ruby on Rails para construir aplicaciones web."
+                            "text": "Desarrollo avanzado de React con hooks, contexto y patrones modernos."
                         },
                         "fr": {
-                            "text": "Compréhension complète de Ruby on Rails pour créer des applications web."
+                            "text": "Développement avancé de React avec hooks, contexte et patterns modernes."
                         },
                         "ko": {
-                            "text": "웹 애플리케이션 구축을 위한 Ruby on Rails에 대한 완전한 이해."
+                            "text": "hooks, context 및 현대적인 패턴을 사용한 고급 React 개발."
                         }
                     }
                 },

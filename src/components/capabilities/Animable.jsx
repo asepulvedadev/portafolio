@@ -46,3 +46,4 @@ function Animable({ children, animationId, onEnterFrame, className = "" }) {
 }
 
 export default Animable
+

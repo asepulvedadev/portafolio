@@ -137,3 +137,4 @@ function ModalWrapperFooterDescription({ title, description, faIcon }) {
 }
 
 export {ModalWrapper, ModalWrapperTitle, ModalWrapperBody, ModalWrapperFooterDescription}
+

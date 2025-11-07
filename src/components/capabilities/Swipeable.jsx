@@ -28,3 +28,4 @@ function Swipeable({ children, breakpoints, className = "", slidesPerView = 3, s
 }
 
 export default Swipeable
+

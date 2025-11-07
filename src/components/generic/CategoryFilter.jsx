@@ -67,3 +67,4 @@ function CategoryFilterButton({ category, minButtonWidthPercentage, isSelected, 
 }
 
 export default CategoryFilter
+

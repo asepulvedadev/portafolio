@@ -29,3 +29,4 @@ function LayoutSlideshow({ sections, currentSection, previousSection }) {
 }
 
 export default LayoutSlideshow
+

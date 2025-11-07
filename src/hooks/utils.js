@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This file contains a collection of utility functions that can be used throughout the application.
  */
@@ -51,3 +51,4 @@ export const useUtils = () => {
         validation
     }
 }
+

@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This hook provides methods to interact with external APIs.
  */
@@ -110,3 +110,4 @@ const analytics = {
         })
     }
 }
+

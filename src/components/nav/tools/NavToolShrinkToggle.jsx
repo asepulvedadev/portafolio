@@ -24,3 +24,4 @@ function NavToolShrinkToggle({ expanded, setExpanded }) {
 }
 
 export default NavToolShrinkToggle
+

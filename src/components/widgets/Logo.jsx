@@ -21,3 +21,4 @@ function Logo({ className = "", style = {}, size, setDidLoad }) {
 }
 
 export default Logo
+

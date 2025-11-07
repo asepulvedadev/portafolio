@@ -23,3 +23,4 @@ function AvatarView({ src = "", alt = "", faIcon = "", className = "",  id = nul
 }
 
 export default AvatarView
+

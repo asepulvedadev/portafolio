@@ -28,3 +28,4 @@ function ActivitySpinner({ activities, defaultMessage }) {
 }
 
 export default ActivitySpinner
+

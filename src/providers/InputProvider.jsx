@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This provider is responsible for managing user input events such as keyboard and mouse interactions.
  */
@@ -129,3 +129,4 @@ const InputContext = createContext(null)
 export const useInput = () => useContext(InputContext)
 
 export default InputProvider
+

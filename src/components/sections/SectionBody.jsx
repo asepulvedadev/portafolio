@@ -48,3 +48,4 @@ SectionBody.ARTICLES = {
 }
 
 export default SectionBody
+

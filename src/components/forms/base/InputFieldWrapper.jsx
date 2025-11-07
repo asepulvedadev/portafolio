@@ -33,3 +33,4 @@ function InputFieldWrapperPrefixIcon({ isFocused, faIcon }) {
 }
 
 export default InputFieldWrapper
+

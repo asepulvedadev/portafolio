@@ -44,3 +44,4 @@ NavLinkPillsFixed.Status = {
 }
 
 export default NavLinkPillsFixed
+

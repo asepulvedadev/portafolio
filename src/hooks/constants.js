@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  * @description This hook provides constants that are used throughout the application.
  */
@@ -69,3 +69,4 @@ export const useConstants = () => {
         TRACKABLE_CLASSES
     }
 }
+

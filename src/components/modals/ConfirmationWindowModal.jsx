@@ -77,3 +77,4 @@ function ConfirmationWindowModal({ target, onDismiss }) {
 }
 
 export default ConfirmationWindowModal
+

@@ -11,3 +11,4 @@ function InfoBadge({ children, faIcon = ``, className = `` }) {
 }
 
 export default InfoBadge
+

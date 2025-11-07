@@ -32,3 +32,4 @@ function NavLinkPillsLink({ link, active, data, onClick, onClickTimeout }) {
 }
 
 export default NavLinkPills
+

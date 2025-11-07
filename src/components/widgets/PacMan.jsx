@@ -30,3 +30,4 @@ PacMan.ColorVariants = {
 }
 
 export default PacMan
+

@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  */
 
@@ -52,3 +52,4 @@ export const _numberUtils = {
         return flipSign && Math.random() < 0.5 ? -value : value
     }
 }
+

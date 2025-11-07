@@ -180,3 +180,5 @@ function ArticleSkillsItemInfo({ itemWrapper }) {
 }
 
 export default ArticleSkills
+
+

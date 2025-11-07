@@ -85,3 +85,4 @@ Article.Types = {
 }
 
 export default Article
+

@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @description Dark theme colors.
  *
  * What each color represents:
@@ -31,13 +31,13 @@
 
 @import "theme-variables-builder";
 
-$primary: #9dff8e;
+$primary: #39FF14;
 $secondary: #a4afb5;
 $dark: #161616;
 $danger: #fdd2d2;
 $muted: #6c757d;
 
-$base-bg: #0c0c0c;
+$base-bg: #0F0F0F;
 $base-bg-light: #161616;
 $base-bg-dark: #090909;
 
@@ -101,3 +101,4 @@ $scrollbar-thumb: #32343a;
         /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
     );
 }
+

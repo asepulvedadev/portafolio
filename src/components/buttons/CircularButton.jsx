@@ -26,3 +26,4 @@ CircularButton.Sizes = {
 }
 
 export default CircularButton
+

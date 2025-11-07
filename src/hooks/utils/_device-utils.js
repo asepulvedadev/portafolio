@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Alvaro Sepulveda
  * @date 2025-05-10
  */
 
@@ -78,3 +78,4 @@ export const _deviceUtils = {
             (navigator.msMaxTouchPoints > 0))
     }
 }
+
