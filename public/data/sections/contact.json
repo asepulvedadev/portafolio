@@ -4,26 +4,26 @@
             "en": {
                 "title_short": "Contact",
                 "title_short_nav": "Contact",
-                "title_long_prefix": "Don't hesitate to",
-                "title_long": "{{Contact}} Me"
+                "title_long_prefix": "Get in",
+                "title_long": "{{Touch}}"
             },
             "es": {
                 "title_short": "Contacto",
                 "title_short_nav": "Contacto",
-                "title_long_prefix": "No dudes en",
-                "title_long": "{{Contácta}}me"
+                "title_long_prefix": "Ponte en",
+                "title_long": "{{Contacto}}"
             },
             "fr": {
                 "title_short": "Contact",
                 "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
-                "title_long": "Me {{Contacter}}"
+                "title_long_prefix": "Entrer en",
+                "title_long": "{{Contact}}"
             },
             "ko": {
                 "title_short": "연락처",
                 "title_short_nav": "연락처",
-                "title_long_prefix": "주저하지 말고",
-                "title_long": "{{연락}} 주세요"
+                "title_long_prefix": "연락",
+                "title_long": "{{주세요}}"
             }
         }
     },
@@ -31,121 +31,44 @@
     "articles": [
         {
             "id": 1,
-            "component": "ArticleContactForm",
-            "settings": {
-                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "email_js_service_id": "service_4h8g7vb",
-                "email_js_template_id": "template_react"
-            },
+            "component": "ArticleText",
             "locales": {
                 "en": {
-                    "contact_thank_you_title": "{{Thanks}} for the contact!",
-                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
-                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
-                    "title": "Send me a {{message}}"
+                    "title": "Digital Business {{Card}}"
                 },
                 "es": {
-                    "contact_thank_you_title": "{{Gracias}} por el contacto!",
-                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
-                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
-                    "title": "Envíame un {{mensaje}}"
+                    "title": "Tarjeta Digital de {{Contacto}}"
                 },
                 "fr": {
-                    "contact_thank_you_title": "{{Merci}} pour le contact!",
-                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
-                    "title": "Envoyez-moi un {{message}}"
+                    "title": "Carte de Visite {{Numérique}}"
                 },
                 "ko": {
-                    "contact_thank_you_title": "{{감사합니다}}!",
-                    "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
-                    "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
-                    "title": "{{메시지를}} 보내주세요"
+                    "title": "디지털 {{명함}}"
                 }
             },
-            "items": null
-        },
-
-        {
-            "id": 2,
-            "component": "ArticleInfoList",
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
-            "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
-            },
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "img": "",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
-                    }
-                },
-                {
-                    "id":2,
-                    "faIcon": "fa-solid fa-envelope",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "asepulvedadev@gmail.com",
-                    "link": {"href": "mailto:asepulvedadev@gmail.com", "tooltipString": "email_me"},
-                    "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
-                    }
-                },
-                {
-                    "id": 3,
-                    "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
-                    "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Alvaro Sepulveda",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
-                    "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
-                    }
-                },
-                {
-                    "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
-                    "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
-                    "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": {
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Digital Business Card'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Scan the QR code or click the link to view my digital business card</p></div>"
+                        },
+                        "es": {
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Tarjeta Digital de Contacto'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Escanea el código QR o haz clic en el enlace para ver mi tarjeta digital</p></div>"
+                        },
+                        "fr": {
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Carte de Visite Numérique'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Scannez le QR code ou cliquez sur le lien pour voir ma carte de visite numérique</p></div>"
+                        },
+                        "ko": {
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='디지털 명함'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>QR 코드를 스캔하거나 링크를 클릭하여 내 디지털 명함을 확인하세요</p></div>"
+                        }
                     }
                 }
             ]
