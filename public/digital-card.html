@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #F96A00, #FF8C42);
+            background: #2a2a2a;
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -22,25 +22,24 @@
         }
 
         .card-container {
-            width: 90%;
-            max-width: 350px;
-            height: 600px;
+            width: 100vw;
+            height: 100vh;
             position: relative;
             transform-style: preserve-3d;
             transition: transform 0.6s;
         }
 
         .card-container:hover {
-            transform: rotateY(5deg) rotateX(5deg);
+            transform: rotateY(2deg) rotateX(2deg);
         }
 
         .card {
             width: 100%;
             height: 100%;
             background: linear-gradient(145deg, #ffffff, #f0f0f0);
-            border-radius: 20px;
+            border-radius: 0;
             box-shadow:
-                0 20px 40px rgba(0,0,0,0.1),
+                0 20px 40px rgba(0,0,0,0.3),
                 0 0 0 1px rgba(255,255,255,0.6);
             position: relative;
             overflow: hidden;
@@ -53,95 +52,97 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 120px;
+            height: 200px;
             background: linear-gradient(135deg, #F96A00, #FF8C42);
-            border-radius: 20px 20px 50% 50%;
             z-index: 1;
         }
 
         .card-content {
-            padding: 20px;
+            padding: 40px;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
             position: relative;
             z-index: 2;
         }
 
         .profile-section {
             text-align: center;
-            margin-top: 60px;
+            margin-bottom: 40px;
         }
 
         .avatar {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #F96A00, #FF8C42);
-            margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            color: white;
-            box-shadow: 0 10px 20px rgba(249, 106, 0, 0.3);
-            border: 4px solid white;
+            background: url('https://avatars.githubusercontent.com/u/12345678?v=4') center/cover;
+            margin: 0 auto 30px;
+            border: 6px solid white;
+            box-shadow: 0 15px 30px rgba(249, 106, 0, 0.4);
         }
 
         .name {
-            font-size: 24px;
+            font-size: 36px;
             font-weight: bold;
             color: #333;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .title {
-            font-size: 16px;
+            font-size: 20px;
             color: #F96A00;
             font-weight: 500;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
         .contact-info {
-            margin: 20px 0;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 40px;
         }
 
         .contact-item {
             display: flex;
             align-items: center;
-            margin-bottom: 15px;
-            padding: 10px;
+            margin-bottom: 20px;
+            padding: 15px 20px;
             background: rgba(249, 106, 0, 0.1);
-            border-radius: 10px;
-            transition: transform 0.2s;
+            border-radius: 15px;
+            transition: all 0.3s;
+            border-left: 4px solid #F96A00;
         }
 
         .contact-item:hover {
-            transform: translateX(5px);
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(249, 106, 0, 0.2);
         }
 
         .contact-item i {
-            width: 20px;
-            margin-right: 10px;
+            width: 25px;
+            margin-right: 15px;
             color: #F96A00;
+            font-size: 18px;
         }
 
         .contact-item span {
-            font-size: 14px;
-            color: #555;
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
         }
 
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 20px;
             margin-top: 20px;
         }
 
         .social-link {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background: linear-gradient(135deg, #F96A00, #FF8C42);
             display: flex;
@@ -149,65 +150,102 @@
             justify-content: center;
             color: white;
             text-decoration: none;
-            font-size: 20px;
-            box-shadow: 0 5px 15px rgba(249, 106, 0, 0.3);
+            font-size: 24px;
+            box-shadow: 0 8px 20px rgba(249, 106, 0, 0.4);
             transition: all 0.3s;
             transform: translateZ(20px);
         }
 
         .social-link:hover {
-            transform: translateZ(30px) scale(1.1);
-            box-shadow: 0 8px 25px rgba(249, 106, 0, 0.4);
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 12px;
-            color: #888;
+            transform: translateZ(40px) scale(1.1);
+            box-shadow: 0 12px 30px rgba(249, 106, 0, 0.5);
         }
 
         /* Animaciones */
         @keyframes float {
             0%, 100% { transform: translateY(0px) rotateY(0deg); }
-            50% { transform: translateY(-10px) rotateY(2deg); }
+            50% { transform: translateY(-5px) rotateY(1deg); }
         }
 
         .card-container {
-            animation: float 6s ease-in-out infinite;
+            animation: float 8s ease-in-out infinite;
         }
 
         /* Responsive */
-        @media (max-width: 480px) {
-            .card-container {
-                width: 95%;
-                height: 550px;
+        @media (max-width: 768px) {
+            .card-content {
+                padding: 20px;
             }
 
+            .avatar {
+                width: 120px;
+                height: 120px;
+            }
+
+            .name {
+                font-size: 28px;
+            }
+
+            .title {
+                font-size: 18px;
+            }
+
+            .contact-info {
+                max-width: 100%;
+            }
+
+            .contact-item {
+                padding: 12px 15px;
+            }
+
+            .social-links {
+                gap: 15px;
+            }
+
+            .social-link {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
             .card-content {
                 padding: 15px;
             }
 
-            .profile-section {
-                margin-top: 40px;
-            }
-
             .avatar {
-                width: 80px;
-                height: 80px;
-                font-size: 32px;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
             }
 
             .name {
-                font-size: 20px;
+                font-size: 24px;
             }
 
             .title {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+
+            .contact-item {
+                padding: 10px 12px;
+                margin-bottom: 15px;
+            }
+
+            .contact-item i {
+                width: 20px;
+                margin-right: 10px;
+                font-size: 16px;
+            }
+
+            .contact-item span {
                 font-size: 14px;
             }
 
             .social-links {
-                gap: 10px;
+                gap: 12px;
             }
 
             .social-link {
@@ -224,9 +262,7 @@
         <div class="card">
             <div class="card-content">
                 <div class="profile-section">
-                    <div class="avatar">
-                        <i class="fas fa-user"></i>
-                    </div>
+                    <div class="avatar" style="background: url('https://avatars.githubusercontent.com/u/12345678?v=4') center/cover;"></div>
                     <div class="name">Alvaro Sepulveda</div>
                     <div class="title">Desarrollador Web</div>
                 </div>
@@ -242,27 +278,20 @@
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
-                        <span>+52 XXX XXX XXXX</span>
+                        <span>+57812390264</span>
                     </div>
                 </div>
 
                 <div class="social-links">
+                    <a href="https://www.facebook.com/asepulvedadev/" class="social-link" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/57812390264" class="social-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                     <a href="https://github.com/asepulvedadev" class="social-link" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://wa.me/52XXXXXXXXXX" class="social-link" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="https://www.instagram.com/tuusuario" class="social-link" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/tuusuario" class="social-link" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </div>
-
-                <div class="footer">
-                    <p>© 2024 Alvaro Sepulveda</p>
                 </div>
             </div>
         </div>
