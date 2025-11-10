@@ -58,16 +58,16 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Digital Business Card'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Scan the QR code or click the link to view my digital business card</p></div>"
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Digital Business Card'></iframe></div>"
                         },
                         "es": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Tarjeta Digital de Contacto'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Escanea el código QR o haz clic en el enlace para ver mi tarjeta digital</p></div>"
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Tarjeta Digital de Contacto'></iframe></div>"
                         },
                         "fr": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Carte de Visite Numérique'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>Scannez le QR code ou cliquez sur le lien pour voir ma carte de visite numérique</p></div>"
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Carte de Visite Numérique'></iframe></div>"
                         },
                         "ko": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='디지털 명함'></iframe><p style='margin-top: 15px; font-size: 14px; color: #666;'>QR 코드를 스캔하거나 링크를 클릭하여 내 디지털 명함을 확인하세요</p></div>"
+                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='디지털 명함'></iframe></div>"
                         }
                     }
                 }
