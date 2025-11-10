@@ -59,8 +59,9 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 200px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 120px;
+            background: linear-gradient(135deg, #F96A00, #FF8C42);
+            border-radius: 20px 20px 50% 50%;
             z-index: 1;
         }
 
@@ -86,23 +87,8 @@
             background: url('images/pictures/profile-picture.jpg') center/cover;
             margin: 0 auto;
             border: 5px solid white;
-            box-shadow:
-                0 10px 30px rgba(102, 126, 234, 0.3),
-                0 0 0 2px rgba(102, 126, 234, 0.1);
+            box-shadow: 0 10px 30px rgba(249, 106, 0, 0.3);
             position: relative;
-        }
-
-        .avatar::after {
-            content: '';
-            position: absolute;
-            top: -5px;
-            left: -5px;
-            right: -5px;
-            bottom: -5px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            z-index: -1;
-            opacity: 0.3;
         }
 
         .name {
@@ -131,21 +117,21 @@
             align-items: center;
             margin-bottom: 20px;
             padding: 15px 20px;
-            background: rgba(102, 126, 234, 0.1);
+            background: rgba(249, 106, 0, 0.1);
             border-radius: 15px;
             transition: all 0.3s;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #F96A00;
         }
 
         .contact-item:hover {
             transform: translateX(10px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            box-shadow: 0 5px 15px rgba(249, 106, 0, 0.2);
         }
 
         .contact-item i {
             width: 25px;
             margin-right: 15px;
-            color: #667eea;
+            color: #F96A00;
             font-size: 18px;
         }
 
@@ -166,21 +152,21 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #F96A00, #FF8C42);
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-decoration: none;
             font-size: 24px;
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 8px 20px rgba(249, 106, 0, 0.4);
             transition: all 0.3s;
             transform: translateZ(20px);
         }
 
         .social-link:hover {
             transform: translateZ(40px) scale(1.1);
-            box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
+            box-shadow: 0 12px 30px rgba(249, 106, 0, 0.5);
         }
 
         /* Animaciones */
