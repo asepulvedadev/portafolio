@@ -73,75 +73,91 @@
         }
 
         .card-content {
-            padding: 25px 15px;
+            padding: 20px 12px;
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
             z-index: 2;
-            gap: 15px;
+            gap: 12px;
         }
 
         @media (min-width: 768px) {
             .card-content {
-                padding: 40px 30px;
-                gap: 25px;
+                padding: 30px 25px;
+                gap: 20px;
             }
         }
 
         .profile-section {
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         @media (min-width: 768px) {
             .profile-section {
-                margin-bottom: 20px;
+                margin-bottom: 15px;
             }
         }
 
         .avatar {
-            width: 140px;
-            height: 140px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             background: url('images/pictures/profile-picture.jpg') center/cover;
             margin: 0 auto;
-            border: 5px solid white;
-            box-shadow: 0 10px 30px rgba(249, 106, 0, 0.3);
+            border: 4px solid white;
+            box-shadow: 0 8px 25px rgba(249, 106, 0, 0.3);
             position: relative;
         }
 
+        @media (min-width: 768px) {
+            .avatar {
+                width: 140px;
+                height: 140px;
+                border: 5px solid white;
+                box-shadow: 0 10px 30px rgba(249, 106, 0, 0.3);
+            }
+        }
+
         .name {
-            font-size: 36px;
+            font-size: 28px;
             font-weight: bold;
             color: #333;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
+        @media (min-width: 768px) {
+            .name {
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+        }
+
         .title {
-            font-size: 16px;
+            font-size: 14px;
             color: #F96A00;
             font-weight: 500;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         @media (min-width: 768px) {
             .title {
-                font-size: 18px;
-                margin-bottom: 20px;
+                font-size: 16px;
+                margin-bottom: 15px;
             }
         }
 
         .contact-info {
             width: 100%;
             max-width: 400px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         @media (min-width: 768px) {
             .contact-info {
-                margin-bottom: 25px;
+                margin-bottom: 15px;
             }
         }
 
