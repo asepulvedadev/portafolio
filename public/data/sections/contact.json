@@ -45,16 +45,16 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Digital Business Card'></iframe></div>"
+                            "text": "<div style='text-align: center;'><iframe src='/digital-card.html' width='100%' height='450' style='border: none;' title='Digital Business Card'></iframe></div>"
                         },
                         "es": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Tarjeta Digital de Contacto'></iframe></div>"
+                            "text": "<div style='text-align: center;'><iframe src='/digital-card.html' width='100%' height='450' style='border: none;' title='Tarjeta Digital de Contacto'></iframe></div>"
                         },
                         "fr": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='Carte de Visite Numérique'></iframe></div>"
+                            "text": "<div style='text-align: center;'><iframe src='/digital-card.html' width='100%' height='450' style='border: none;' title='Carte de Visite Numérique'></iframe></div>"
                         },
                         "ko": {
-                            "text": "<div style='text-align: center; padding: 20px;'><iframe src='/digital-card.html' width='100%' height='650' style='border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);' title='디지털 명함'></iframe></div>"
+                            "text": "<div style='text-align: center;'><iframe src='/digital-card.html' width='100%' height='450' style='border: none;' title='디지털 명함'></iframe></div>"
                         }
                     }
                 }
