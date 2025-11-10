@@ -14,13 +14,16 @@ div.article-text-items {
 
     display: flex;
     flex-direction: column;
+    min-height: 0;
+    height: auto;
 }
 
 div.article-text-item {
     display: flex;
     align-items: center;
-
     margin: 0;
+    min-height: 0;
+    height: auto;
 
     @include media-breakpoint-down($column-breakpoint) {
         flex-direction: column;
