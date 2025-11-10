@@ -32,20 +32,7 @@
         {
             "id": 1,
             "component": "ArticleText",
-            "locales": {
-                "en": {
-                    "title": "Digital Business {{Card}}"
-                },
-                "es": {
-                    "title": "Tarjeta Digital de {{Contacto}}"
-                },
-                "fr": {
-                    "title": "Carte de Visite {{Numérique}}"
-                },
-                "ko": {
-                    "title": "디지털 {{명함}}"
-                }
-            },
+            "locales": {},
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc"
