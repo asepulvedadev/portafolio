@@ -27,6 +27,9 @@
             position: relative;
             transform-style: preserve-3d;
             transition: transform 0.6s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .card-container:hover {
@@ -34,16 +37,20 @@
         }
 
         .card {
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            max-width: 400px;
+            height: auto;
+            max-height: 90vh;
             background: linear-gradient(145deg, #ffffff, #f0f0f0);
-            border-radius: 0;
+            border-radius: 20px;
             box-shadow:
-                0 20px 40px rgba(0,0,0,0.3),
-                0 0 0 1px rgba(255,255,255,0.6);
+                0 25px 50px rgba(0,0,0,0.15),
+                0 0 0 1px rgba(255,255,255,0.8),
+                inset 0 1px 0 rgba(255,255,255,0.6);
             position: relative;
             overflow: hidden;
             transform-style: preserve-3d;
+            backdrop-filter: blur(10px);
         }
 
         .card::before {
@@ -53,19 +60,18 @@
             left: 0;
             right: 0;
             height: 200px;
-            background: linear-gradient(135deg, #F96A00, #FF8C42);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             z-index: 1;
         }
 
         .card-content {
-            padding: 40px;
-            height: 100%;
+            padding: 40px 30px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             position: relative;
             z-index: 2;
+            gap: 30px;
         }
 
         .profile-section {
@@ -74,13 +80,29 @@
         }
 
         .avatar {
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
-            background: url('https://avatars.githubusercontent.com/u/12345678?v=4') center/cover;
-            margin: 0 auto 30px;
-            border: 6px solid white;
-            box-shadow: 0 15px 30px rgba(249, 106, 0, 0.4);
+            background: url('images/pictures/profile-picture.jpg') center/cover;
+            margin: 0 auto;
+            border: 5px solid white;
+            box-shadow:
+                0 10px 30px rgba(102, 126, 234, 0.3),
+                0 0 0 2px rgba(102, 126, 234, 0.1);
+            position: relative;
+        }
+
+        .avatar::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            z-index: -1;
+            opacity: 0.3;
         }
 
         .name {
@@ -109,21 +131,21 @@
             align-items: center;
             margin-bottom: 20px;
             padding: 15px 20px;
-            background: rgba(249, 106, 0, 0.1);
+            background: rgba(102, 126, 234, 0.1);
             border-radius: 15px;
             transition: all 0.3s;
-            border-left: 4px solid #F96A00;
+            border-left: 4px solid #667eea;
         }
 
         .contact-item:hover {
             transform: translateX(10px);
-            box-shadow: 0 5px 15px rgba(249, 106, 0, 0.2);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
         }
 
         .contact-item i {
             width: 25px;
             margin-right: 15px;
-            color: #F96A00;
+            color: #667eea;
             font-size: 18px;
         }
 
@@ -144,21 +166,21 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #F96A00, #FF8C42);
+            background: linear-gradient(135deg, #667eea, #764ba2);
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-decoration: none;
             font-size: 24px;
-            box-shadow: 0 8px 20px rgba(249, 106, 0, 0.4);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
             transition: all 0.3s;
             transform: translateZ(20px);
         }
 
         .social-link:hover {
             transform: translateZ(40px) scale(1.1);
-            box-shadow: 0 12px 30px rgba(249, 106, 0, 0.5);
+            box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
         }
 
         /* Animaciones */
